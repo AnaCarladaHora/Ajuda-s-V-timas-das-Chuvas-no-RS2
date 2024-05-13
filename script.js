@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwyj1FQBhpQ3_hy40BsSAFReX6jmBLlcfoXMhGbsz7ZBKB4MTaqk6CXn-bzkzOIMEJ4mA'; // Substitua YOUR_SCRIPT_ID_HERE pelo ID do seu script do Google Apps Script
+const scriptURL = 'https:https://script.google.com/macros/s/AKfycbxp-P4iLM9WZQ99SpdeneSbR_8RDhuuVd8wKrCjgTpgLjwp97vajpERVU1wVzKfePs3Q/exec'; // Substitua YOUR_SCRIPT_ID_HERE pelo ID do seu script do Google Apps Script
 
 const form = document.forms['cachorroPerdidoForm'];
 
