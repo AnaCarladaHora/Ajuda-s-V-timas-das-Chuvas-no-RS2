@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #007bff;
+}
+
+#cachorroPerdidoForm label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#cachorroPerdidoForm input,
+#cachorroPerdidoForm button {
+    padding: 0.5em;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#cachorroPerdidoForm button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

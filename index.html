@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda às Vítimas das Chuvas no RS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ajuda às Vítimas das Chuvas no RS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#informacoes">Informações</a></li>
+            <li><a href="#doacoes">Doações</a></li>
+            <li><a href="#voluntariado">Voluntariado</a></li>
+            <li><a href="#animais">Animais Perdidos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="informacoes">
+            <h2>Informações Relevantes</h2>
+            <p>Nesta seção, inclua informações importantes sobre a situação atual, áreas afetadas, 
+            contatos de emergência e outras informações úteis para as vítimas.</p>
+        </section>
+        <section id="doacoes">
+            <h2>Como Fazer Doações</h2>
+            <p>Indique ONGs, instituições e outras formas de realizar doações para ajudar 
+            as vítimas das enchentes. Inclua links para sites e plataformas de doação.</p>
+        </section>
+        <section id="voluntariado">
+            <h2>Voluntariado</h2>
+            <p>Forneça informações sobre como as pessoas podem se voluntariar para ajudar nas 
+            áreas afetadas. Inclua contatos de organizações que estão coordenando o voluntariado.</p>
+        </section>
+        <section id="animais">
+            <h2>Procurando Seu Cachorro Perdido?</h2>
+            <p>Preencha o formulário abaixo com informações sobre seu cachorro perdido.</p>
+            <form id="cachorroPerdidoForm">
+                <label for="nomeCachorro">Nome do Cachorro:</label>
+                <input type="text" id="nomeCachorro" name="nomeCachorro" required><br><br>
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca"><br><br>
+                <label for="cor">Cor:</label>
+                <input type="text" id="cor" name="cor"><br><br>
+                <label for="ultimaLocalizacao">Última Localização Vista:</label>
+                <input type="text" id="ultimaLocalizacao" name="ultimaLocalizacao"><br><br>
+                <label for="contato">Seu Contato (Telefone/Email):</label>
+                <input type="text" id="contato" name="contato" required><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido para ajudar as vítimas das chuvas no RS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
