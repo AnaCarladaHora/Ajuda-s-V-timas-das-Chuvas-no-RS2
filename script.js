@@ -1,6 +1,6 @@
-const scriptURL = 'https:https://script.google.com/macros/s/AKfycbxp-P4iLM9WZQ99SpdeneSbR_8RDhuuVd8wKrCjgTpgLjwp97vajpERVU1wVzKfePs3Q/exec'; // Substitua YOUR_SCRIPT_ID_HERE pelo ID do seu script do Google Apps Script
+const scriptURL = 'https:https://script.google.com/macros/s/AKfycbyc7s-efHb9XbkAkCpnU0BnxYS99zf0yNPRxnhW2d84r029Nk0gqkT8La0gzhYFxp3PEQ/exec'; // Substitua YOUR_SCRIPT_ID_HERE pelo ID do seu script do Google Apps Script
 
-const form = document.forms['cachorroPerdidoForm'];
+const form = document.forms[''cachorroPerdidoForm''];
 
 form.addEventListener('submit', e => {
   e.preventDefault();
